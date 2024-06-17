@@ -1,0 +1,93 @@
+@media screen and (max-width: 800px){
+    .upperbg img{
+        width: 40vw;
+        height: 25vw;
+        border-radius: 20px;  
+    }
+    .upperbg .textbox .text2{
+        font-size: 20px;
+    }
+    .boxs{
+        flex-direction: column;
+    }
+    .boxs .box img{
+        width: 70vw;
+        display: flex;
+        margin: auto;
+    }
+    .card .card-item{
+        margin: 20px;
+        padding: 15px;
+    }
+    .text4{
+        width: 600px;
+    }
+    .content3 .card {
+        overflow: scroll;
+    }
+}
+@media screen and (max-width: 600px){
+    .upperbg .textbox .text1{
+        font-size: 25px;
+    }
+    .upperbg .textbox .text2{
+        margin: 0 20px;
+        font-size: 18px;
+    }
+    .card .card-item{
+        margin: 15px;
+    }
+    .card-item img{
+        width: 12vw;
+        height: 12vw;
+    }
+    .text4{
+        width: 500px;
+        font-size: 30px;
+    }
+    .content3 .card {
+        overflow: scroll;
+    }
+}
+@media screen and (max-width: 500px){
+    nav{
+        flex-direction: column;
+    }
+    .logo{
+        padding-top: 10px;
+    }
+    .boxs .box img{
+        width: 60vw;
+    }
+    .text4{
+        width: 400px;
+    }
+    .content3 .card {
+        overflow: scroll;
+    }
+}
+@media screen and (max-width: 400px){
+    nav ul{
+        height: 10vh;
+        flex-direction: column;
+    }
+    .list{
+        margin: 10px 0;
+    }
+    .btn{
+        margin-bottom: 10px;
+    }
+    .upperbg .textbox .text2{
+        margin: 0 10px;
+        font-size: 15px;
+    }
+    .textbox .text1{
+        font-size: 20px;
+    }
+    .text4{
+        width: 300px;
+    }
+    .content3 .card {
+        overflow: scroll;
+    }
+}
